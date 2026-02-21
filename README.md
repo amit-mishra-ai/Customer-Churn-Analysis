@@ -1,155 +1,221 @@
-# 📊 Telco Customer Churn Analysis | Exploratory Data Analysis (EDA) | Data Visualisation | PowerBI
+# 📊 Telco Customer Churn Analysis  
+### Exploratory Data Analysis (EDA) | Data Visualization | Power BI Dashboard | DAX
+
+---
 
 ## 🚀 Project Overview
-Customer churn is one of the most critical challenges in the telecom industry. Retaining an existing customer is significantly more cost-effective than acquiring a new one.  
 
-In this project, I performed **Exploratory Data Analysis (EDA)** on the Telco Customer Churn dataset to uncover hidden patterns, understand customer behavior, and identify the key factors driving churn.
+Customer churn is one of the most critical challenges in the telecom industry. Retaining an existing customer is significantly more cost-effective than acquiring a new one.
 
-The goal was not just to visualize the data, but to extract actionable insights that can help businesses make **data-driven retention strategies**.
+This project follows a **two-stage analytical approach**:
 
----
+1️⃣ **Exploratory Data Analysis (EDA)** using Python  
+2️⃣ **Executive-Level Interactive Dashboard** using Power BI  
 
-## 🎯 Objectives
-- Understand customer demographics and service usage.
-- Identify the major factors contributing to customer churn.
-- Detect high-risk customer segments.
-- Provide business recommendations to improve retention.
-- Build a strong analytical foundation for future predictive modeling.
+The objective was not just to analyze churn patterns, but to connect customer behavior directly to **revenue impact and business strategy**, enabling data-driven retention decisions.
 
 ---
 
-## 🛠️ Tools & Technologies Used
+## 🎯 Business Objectives
+
+- Understand customer demographics and service usage patterns  
+- Identify key factors contributing to churn  
+- Quantify financial impact of customer attrition  
+- Detect high-risk customer segments  
+- Provide actionable business recommendations  
+- Build a foundation for predictive churn modeling  
+
+---
+
+# 🔎 Phase 1: Exploratory Data Analysis (EDA)
+
+## 🛠 Tools & Technologies Used
+
 - **Python**
-- **Pandas** – Data manipulation and preprocessing  
-- **NumPy** – Numerical operations  
+- **Pandas** – Data manipulation & preprocessing  
+- **NumPy** – Numerical analysis  
 - **Matplotlib & Seaborn** – Data visualization  
 - **Jupyter Notebook** – Interactive analysis  
 
 ---
 
-## 🔎 Analysis Approach
+## 📌 1. Data Understanding & Cleaning
 
-### ✅ 1. Data Understanding & Cleaning
-- Explored dataset structure and feature distributions.
-- Checked for missing values and inconsistencies.
-- Converted data types where necessary for accurate analysis.
-- Prepared categorical and numerical features for visualization.
-
----
-
-### ✅ 2. Univariate Analysis
-Focused on understanding individual variables such as:
-
-- Customer tenure  
-- Contract types  
-- Payment methods  
-- Monthly and total charges  
-- Service subscriptions  
-
-This helped identify early churn signals and customer distribution patterns.
+- Explored dataset structure and feature distributions  
+- Checked for missing values and handled inconsistencies  
+- Converted data types (e.g., `TotalCharges` to numeric)  
+- Validated categorical and numerical features  
+- Ensured data quality before analysis  
 
 ---
 
-### ✅ 3. Bivariate & Multivariate Analysis
-Compared churn vs non-churn customers across multiple dimensions to uncover relationships.
+## 📌 2. Univariate Analysis
 
-Key techniques used:
-- Feature comparisons
-- Correlation insights
-- Distribution plots
-- Category-based churn analysis
+Analyzed individual features such as:
 
-The emphasis was on answering:
+- Customer Tenure  
+- Contract Type  
+- Payment Method  
+- Internet Service  
+- Monthly Charges  
+- Total Charges  
+- Service Subscriptions  
 
-👉 *“What is influencing customers to leave?”*  
-👉 *“Which segments are at higher risk?”*
-
----
-
-### ✅ 4. Business-Oriented Exploration
-Moved beyond technical analysis to focus on business impact:
-
-Instead of asking **“What does the data show?”**, the approach was:
-
-💡 **“What decision can a company make using this data?”**
+This helped identify customer distribution trends and early churn signals.
 
 ---
 
-## 📊 Key Insights
+## 📌 3. Bivariate & Multivariate Analysis
+
+Compared churn vs non-churn customers across multiple dimensions:
+
+- Contract vs Churn  
+- Tenure vs Churn  
+- Monthly Charges vs Churn  
+- Payment Method vs Churn  
+- Internet Service vs Churn  
+- Service Bundle Adoption vs Churn  
+
+Techniques used:
+
+- Distribution analysis  
+- Category-based churn comparison  
+- Correlation insights  
+- Comparative visualizations  
+
+Key analytical questions addressed:
+
+> What factors are influencing customers to leave?  
+> Which segments are at the highest churn risk?
+
+---
+
+## 📊 Key EDA Insights
 
 ### 🔹 Contract Type Strongly Impacts Churn
-Customers on **month-to-month contracts** showed significantly higher churn rates compared to those on long-term contracts.
-
-👉 Long-term commitments improve customer retention.
-
----
+Month-to-month customers exhibit significantly higher churn compared to long-term contracts.
 
 ### 🔹 Tenure is a Powerful Predictor
-New customers are more likely to churn.
+Customers within their first 12 months show elevated churn rates, highlighting onboarding challenges.
 
-👉 The first few months are crucial for building loyalty and delivering a strong onboarding experience.
-
----
-
-### 🔹 Higher Monthly Charges Increase Churn Risk
-Customers paying higher monthly fees demonstrated greater churn probability.
-
-👉 This may indicate pricing dissatisfaction or low perceived value.
-
----
+### 🔹 Pricing Sensitivity Exists
+Higher monthly charges correlate with increased churn probability.
 
 ### 🔹 Value-Added Services Reduce Churn
-Customers subscribed to services such as:
+Customers subscribed to Online Security and Tech Support show lower churn rates.
 
-- Tech Support  
-- Online Security  
-
-were less likely to leave.
-
-👉 Bundled services enhance customer stickiness.
+### 🔹 Payment Method Influences Churn Behavior
+Electronic check users demonstrate significantly higher churn trends.
 
 ---
 
-### 🔹 Payment Method Influences Customer Behavior
-Certain payment methods showed higher churn trends, suggesting possible friction in billing or convenience.
+# 📊 Phase 2: Power BI Executive Dashboard
+
+After completing EDA, insights were translated into a **2-page interactive Business Intelligence dashboard**.
 
 ---
 
-## 💡 Business Recommendations
+## 🛠 Tools & Skills Applied
 
-✔ Focus on **early customer engagement strategies**  
-✔ Encourage migration from monthly to long-term contracts  
-✔ Bundle additional services to increase perceived value  
-✔ Monitor high-paying customers with personalized offers  
-✔ Improve billing experience to reduce payment-related churn  
-
-👉 These strategies can significantly improve customer retention and lifetime value.
-
----
-
-## 📈 Project Outcome
-This analysis demonstrates how **EDA transforms raw data into meaningful business insights.**
-
-It reinforced an important lesson:
-
-> **EDA is not just about charts — it is about storytelling that drives smarter decisions.**
+- **Power BI**
+- **DAX (Data Analysis Expressions)**
+- KPI Development
+- Revenue Impact Analysis
+- Data Modeling
+- Interactive Dashboard Design
+- Customer Segmentation
+- Business Intelligence Reporting
 
 ---
 
-## 🔮 Future Scope
-- Build a **Customer Churn Prediction Model**
-- Apply machine learning algorithms to forecast churn
-- Develop an interactive dashboard for business stakeholders
-- Implement customer segmentation for targeted retention campaigns
+## 📈 Page 1: Revenue & Risk Overview
+
+Focused on executive-level KPIs:
+
+- Total Customers  
+- Total Churn Customers  
+- Churn Rate (26.5%)  
+- Revenue Churn Rate (17.8%)  
+- Total Revenue ($16.1M)  
+- Revenue Loss by Contract Type  
+
+### Key Findings:
+
+- Month-to-month contracts account for the highest revenue loss ($1.93M)  
+- Early lifecycle customers (0–12 months) show ~47% churn rate  
+- Revenue churn rate lower than customer churn rate → lower-value customers churn more  
 
 ---
 
-## Live Dashboard:
+## 📊 Page 2: Detailed Segmentation & Risk Analysis
+
+Focused on churn drivers and behavioral segmentation:
+
+- Churn Rate by Payment Method  
+- Churn Rate by Internet Service  
+- Churn Rate by Online Security  
+- Churn Rate by Gender, Partner, Dependents  
+- Average Monthly Charges (Overall vs Churned)  
+- Average Tenure of Churned Customers  
+
+### Key Dashboard Insights:
+
+- Electronic check users → 45% churn rate  
+- Fiber optic customers → 41.9% churn rate  
+- Customers without online security churn nearly 3x more  
+- Churned customers have higher average monthly charges ($74 vs $64)  
+
+---
+
+# 💡 Business Recommendations
+
+✔ Encourage migration to long-term contracts  
+✔ Strengthen onboarding experience during first 12 months  
+✔ Improve payment channel experience  
+✔ Bundle value-added services (Online Security, Tech Support)  
+✔ Implement proactive retention strategies for high-revenue customers  
+
+These strategies can directly improve Customer Lifetime Value (CLV) and reduce revenue leakage.
+
+---
+
+# 📈 Project Outcome
+
+This project demonstrates:
+
+- Strong analytical thinking  
+- End-to-end data analysis workflow  
+- Ability to connect churn behavior with revenue impact  
+- Executive-level dashboard storytelling  
+- Business-oriented data interpretation  
+
+It reinforces that:
+
+> EDA is not just about charts — it is about extracting insights that drive smarter decisions.
+
+---
+
+# 🔮 Future Scope
+
+- Build a **Customer Churn Prediction Model**  
+- Apply Machine Learning algorithms (Logistic Regression, Random Forest)  
+- Develop churn risk scoring system  
+- Implement customer segmentation for targeted retention campaigns  
+- Integrate predictive analytics into Power BI dashboard  
+
+---
+
+# 🔗 Live Dashboard
+
 https://app.fabric.microsoft.com/view?r=eyJrIjoiYjY2NThiZTctMzRkNC00Y2ZhLTkwYTYtZTJhM2I5YzhmZGQ3IiwidCI6IjYyOTZhNGQzLTZiNjgtNGY3NC05ZWRhLWIxMDAzMzkyYzAxOCJ9
 
-## 👨‍💻 Author
+---
+
+# 👨‍💻 Author
+
 **Amit Kumar Mishra**  
-Aspiring Data Analyst passionate about solving business problems using data.
+Aspiring Data Analyst | Business Intelligence Enthusiast  
+Passionate about transforming data into actionable business insights.
 
 ---
 
