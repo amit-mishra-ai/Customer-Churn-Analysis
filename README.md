@@ -1,4 +1,4 @@
-# 📊 Telco Customer Churn Analysis | Exploratory Data Analysis (EDA)
+# 📊 Telco Customer Churn Analysis | Exploratory Data Analysis (EDA) | Data Visualisation | PowerBI
 
 ## 🚀 Project Overview
 Customer churn is one of the most critical challenges in the telecom industry. Retaining an existing customer is significantly more cost-effective than acquiring a new one.  
@@ -143,6 +143,9 @@ It reinforced an important lesson:
 - Implement customer segmentation for targeted retention campaigns
 
 ---
+
+## Live Dashboard:
+https://app.fabric.microsoft.com/view?r=eyJrIjoiYjY2NThiZTctMzRkNC00Y2ZhLTkwYTYtZTJhM2I5YzhmZGQ3IiwidCI6IjYyOTZhNGQzLTZiNjgtNGY3NC05ZWRhLWIxMDAzMzkyYzAxOCJ9
 
 ## 👨‍💻 Author
 **Amit Kumar Mishra**  
