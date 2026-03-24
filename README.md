@@ -204,6 +204,9 @@ It reinforces that:
 - Integrate predictive analytics into Power BI dashboard  
 
 ---
+## Snapshot Of the dashboard :
+<img width="699" height="860" alt="image" src="https://github.com/user-attachments/assets/3c75a91e-d61b-4923-b4fd-ee8955de8af6" />
+
 
 # 🔗 Live Dashboard
 
